@@ -1,0 +1,27 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "availablemodule",
+    "findproduct",
+    "Infomation",
+    "infomations",
+    "Navbars",
+    "Promptpay",
+    "Richtext",
+    "roletype",
+    "semibold",
+    "setcontents",
+    "tailwindcss",
+    "กรุณาใส่ข้อมูลให้ครบถ้วน",
+    "คุณมีคำสั่งซื้อสินค้าใหม่",
+    "โปรดเข้าไปตรวจสอบในระบบ",
+    "รายการ",
+    "รายการประเภทสินค้าและส่วนลดของ",
+    "รายละเอียดของสินค้าตัวอย่างซึ่งสินค้านี้คือสินค้าตัวอย่างที่ใช้แสดงผลการปรับเปลี่ยนการแสดงผลของสินค้าที่หน้าเว็บไซต์",
+    "สำเร็จ",
+    "สำหรับรูปภาพที่มีอยู่แล้ว",
+    "เหลือสินค้า"
+  ],
+  "javascript.suggestionActions.enabled": true
+}
