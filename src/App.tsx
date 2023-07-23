@@ -4,16 +4,11 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="font-inter">
       <div className="app-header">
         <img src={logo} alt="logo" /> <span>Drivehub</span>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-evenly",
-        }}
-      >
+      <div className="flex">
         <div>Car list</div>
         <div>Cart</div>
       </div>
