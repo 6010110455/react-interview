@@ -172,7 +172,9 @@ function App() {
         <div className="mx-10 md:mx-20 w-full mb-8">
           <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-10">
             {_.map(
-              inputText === "" ? carLists?.items : carListsSearch,
+              inputText === "" && selectSort === ""
+                ? carLists?.items
+                : carListsSearch,
               (car, index) => (
                 <div key={index} className="rounded-lg shadow bg-white">
                   <div>
