@@ -14,6 +14,8 @@ import axios from "axios";
 import _ from "lodash";
 
 function App() {
+  const [cart, setCart] = useLocalStorageState<CartProps>("cart", {});
+
   const [carLists, setCarLists] = useState(null);
   const [carListsSearch, setCarListsSearch] = useState(null);
   const [inputText, setInputText] = useState("");
@@ -228,3 +230,6 @@ function App() {
 }
 
 export default App;
+function useLocalStorageState<T>(arg0: string, arg1: {}): [any, any] {
+  throw new Error("Function not implemented.");
+}
